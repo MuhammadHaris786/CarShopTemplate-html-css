@@ -1,0 +1,21 @@
+/* Background Image on body */
+body,
+html {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden !important;
+}
+body {
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("img/background\ review.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+/* nav design */
+
+.nav ul li:nth-child(4) ::after {
+  width: 100%;
+}
