@@ -127,6 +127,9 @@ button:hover {
 }
 @media screen and (max-width: 600px) {
   /*heading  */
+  body {
+    overflow: visible;
+  }
   .container {
     margin-top: 45%;
   }
@@ -136,6 +139,9 @@ button:hover {
 }
 @media screen and (max-width: 400px) {
   /*heading  */
+  body {
+    overflow: visible;
+  }
   .container {
     margin-top: 80%;
   }
